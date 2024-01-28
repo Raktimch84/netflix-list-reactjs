@@ -1,8 +1,8 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 // import './styles.css';
-// import './net.css';
-import './new.css';
+import './net.css';
+// import './new.css';
 import reportWebVitals from './reportWebVitals';
 import sarray from './components/sarray';
 import Netcards from './components/netcards';
@@ -26,7 +26,7 @@ import Digital from './components/digitalclock';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-      <Digital />
+      <Demo />
   </>
 );
 reportWebVitals();
